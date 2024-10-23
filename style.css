@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto for body text */
+    background-color: #f0f0f0; /* Light background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav {
+    background-color: #333; /* Dark background for navbar */
+    padding: 10px; /* Padding around navbar */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use Flexbox for horizontal navigation */
+    justify-content: space-around; /* Space out navigation links */
+}
+
+nav ul li {
+    margin: 0 15px; /* Margin around each list item */
+}
+
+nav a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold font for links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px; /* Max width for main content */
+    margin: auto; /* Center align the container */
+    padding: 20px; /* Padding around the container */
+    background-color: white; /* White background for content area */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Headings */
+h1 {
+    font-family: 'Lobster', cursive; /* Use Lobster for headings */
+    color: #333; /* Dark text color for headings */
+    font-size: 2.5em; /* Larger font size for headings */
+    text-align: center; /* Center align headings */
+    margin-top: 20px; /* Margin above heading */
+}
+
+/* Paragraph Styles */
+p {
+    line-height: 1.6; /* Improved line spacing */
+    color: #555; /* Dark gray text color for readability */
+    margin: 15px 0; /* Margin above and below paragraphs */
+}
+
+/* Flexbox Styles */
+.image-container {
+    display: flex; /* Use Flexbox for the image container */
+    justify-content: space-around; /* Space images evenly */
+    margin-top: 20px; /* Add some margin above the image container */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Grid Styles */
+.gallery-grid {
+    display: grid; /* Use Grid for the gallery */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid columns */
+    gap: 20px; /* Space between grid items */
+    margin-top: 20px; /* Add some margin above the grid */
+}
+
+.gallery-grid img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: add some styling to images */
+}
+
+/* Link Styles */
+a {
+    color: #007bff; /* Primary link color */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
